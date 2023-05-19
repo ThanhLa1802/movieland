@@ -7,7 +7,8 @@ const API_URL = 'http://www.omdbapi.com/?apikey=59f24a14';
 function App() {
   // init movies useState with empty array
   const [movies, setMovies] = useState([])
-  
+  const [test, setTest] = useState([])
+  const [test1, setTest1] = useState([])
   // init search word
   const [searchTearm, setSearchTearm] = useState("")
   
@@ -59,3 +60,5 @@ function App() {
 }
 
 export default App;
+
+
